@@ -6,4 +6,6 @@ The `first file` (*KHPC_FeatEng_jun13.ipynb*), will contain a `XGBoost model`, w
 The `second file` (*KHPC_Stacking_aug8.ipynb*), will contain not only a `XGBoost model` but also a `LightGBM`, `SVR (support vector regression)`, `KNN regression`, `Lasso regression`, and a `Elastic Net model`.
 This file contains many parts that are the same to the first, namely the EDA, with the addition the other 5 models and a stacking model attempt - although the stacking model does not end up performing any better than the single XGBoost model. 
 
+> **NOTE:** The `second file` is slightly revised from the first, in terms of readability.
+
 The worse result from the stacking model is likely do to overfitting.
